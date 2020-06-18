@@ -1,0 +1,54 @@
+<!-- <div class="col-12 wrapper-services">
+    <div class="row">
+        <div class="col col-lg-4 ourservice" style="background-image: url({{slide.src}});" *ngFor="let slide of slides">
+            <div class="col col-12 body-content">
+                <div class="text-content">
+                    <div class="line"></div>
+                    <h5 class="title">{{slide.text}}</h5>
+                    <div class="aditional-text">
+                        <p>Maecenas elementum mi eget odio laoreet, et iaculis lacus tincidunt. Quisque sollicitudin libero commodo mi sagittis, eget cursus sapien feugiat. Donec et lacus elit. Aliquam erat volutpat.</p>
+                        <button class="btn btn-primary">Go To Our Services</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> -->
+<div class="col-12 wrapper-services">
+    <div class="row">
+        <div class="col col-10 offset-1">
+            <div class="col col-12" style="text-align: center; margin-bottom: 60px; margin-top: 40px;">
+                <h5 class="head-title">Services</h5>
+                <h3>Discover Our Services </h3>
+            </div>
+            <div class="row not-padding">
+                <div class="col col-4 not-padding" *ngFor="let slide of slides">
+                    <div class="col col-12" *ngIf="slide.odd">
+                        <div class="row">
+                            <div class="col col-12 backservices" style="background-image: url({{slide.src}});"></div>
+                            <div class="col col-12 body-content">
+                                <h5 class="head-title">{{slide.text}}</h5>
+                                <div class="col col-10 offset-1 aditional-text">
+                                    <p>Maecenas elementum mi eget odio laoreet, et iaculis lacus tincidunt. Quisque sollicitudin libero commodo mi sagittis, eget cursus sapien feugiat. Donec et lacus elit. Aliquam erat volutpat.</p>
+                                    <button class="btn btn-go">More about</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-12" *ngIf="!slide.odd">
+                        <div class="row">
+                            <div class="col col-12 body-content">
+                                <h5 class="head-title">{{slide.text}}</h5>
+                                <div class="col col-10 offset-1 aditional-text">
+                                    <p>Maecenas elementum mi eget odio laoreet, et iaculis lacus tincidunt. Quisque sollicitudin libero commodo mi sagittis, eget cursus sapien feugiat. Donec et lacus elit. Aliquam erat volutpat.</p>
+                                    <button class="btn btn-go">More about</button>
+                                </div>
+                            </div>
+                            <div class="col col-12 backservices" style="background-image: url({{slide.src}});"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

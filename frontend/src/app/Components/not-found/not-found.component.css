@@ -1,0 +1,13 @@
+.error-wrapper
+{
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.error-wrapper img
+{
+    width: 180px;
+}

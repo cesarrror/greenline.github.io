@@ -1,0 +1,131 @@
+.products
+{
+    min-height: 450px;
+    background-color: #ffffff;
+}
+
+.header-products
+{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.product-card
+{
+    min-height: 550px;
+    background-color: #ffffff;
+    padding: 15px 20px;
+    transition: all linear 0.2s;
+    -webkit-transition: all linear 0.2s;
+    -moz-transition: all linear 0.2s;
+    -ms-transition: all linear 0.2s;
+    -o-transition: all linear 0.2s;
+    cursor: pointer;
+}
+
+
+.product-card .product
+{
+    min-height: 550px;
+    background-size: cover;
+    background-position: center;
+}
+
+.product-card .product:hover
+{
+}
+
+.content
+{
+    background-color: transparent;
+    margin: 0;
+    position: absolute;
+    height: 200px;
+    bottom: 0;
+    transition: all linear 0.2s;
+    -webkit-transition: all linear 0.2s;
+    -moz-transition: all linear 0.2s;
+    -ms-transition: all linear 0.2s;
+    -o-transition: all linear 0.2s;
+    color: #ffffff;
+}
+
+.product 
+{
+    padding: 0;
+    margin: 0;
+}
+
+.product:hover .content
+{
+    height: 550px;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+}
+
+.content .head-title-alt
+{
+    color: #ffffff;
+    font-weight: bold;
+    margin-top: 100px;
+}
+
+.details
+{
+    display: none;
+    transition: all linear 0.6s;
+    -webkit-transition: all linear 0.6s;
+    -moz-transition: all linear 0.6s;
+    -ms-transition: all linear 0.6s;
+    -o-transition: all linear 0.6s;
+}
+
+.product:hover .details
+{
+    display: block;
+}
+
+/* 
+.page
+{
+    width: 10px;
+    height: 10px;
+    border-radius: 50px;
+    margin: 0px 5px;
+    background-color: rgb(226, 226, 226);
+    display: block;
+    transition: all ease-in-out 0.2s;
+    -webkit-transition: all ease-in-out 0.2s;
+    -moz-transition: all ease-in-out 0.2s;
+    -ms-transition: all ease-in-out 0.2s;
+    -o-transition: all ease-in-out 0.2s;
+    
+}
+
+.page:hover
+{
+    background-color: #6ac000;
+    cursor: pointer;
+    transform: scale(1.3);
+}
+
+.product-detail
+{
+    font-size: 12px;
+    color: #7a7a7a;
+}
+
+.img-product
+{
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+}
+
+.active
+{
+    background-color: #559b00;
+    cursor: pointer;
+    transform: scale(1.3);
+} */

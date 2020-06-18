@@ -7,7 +7,12 @@
         class="slide"
         @carouselAnimation
       />
-      <p style="z-index: 2000; position: relative; width: 100%; color: #FFF;" *ngIf="i === currentSlide">HJ {{i}}</p>
+        <!-- <p style="z-index: 2000; position: relative; width: 100%; color: #FFF;" *ngIf="i === currentSlide"></p> -->
+        <div class="wrapper-content" *ngIf="i === currentSlide">
+            <h3>{{slide.title}}</h3>
+            <h5>{{slide.subtitle}}</h5>
+            <p>{{slide.text}}</p>
+        </div>
     </ng-container>
     
     <!-- controls -->

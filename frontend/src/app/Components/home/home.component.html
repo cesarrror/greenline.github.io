@@ -1,6 +1,21 @@
 <div class="container-fluid">
     <app-menu></app-menu>
-    <div class="carousel-wrapper">
-        <app-carousel [slides]="slides"></app-carousel>
+    <div class="encabezado">
+        <div class="welcome-message">
+            <h1>Welcome to <span class="brand">Greenline Hardscapes</span></h1>
+            <h4>General Stone Work</h4>
+            <p>Here you will find a large number of  high level products and available  to decorate your house and garden,  please go to our gallery section or go to our products section to see our stock</p>
+            <button class="btn btn-outline-light btn-main">Go to Gallery <i class="fas fa-images"></i></button>
+            <button class="btn btn-outline-light btn-main">Go to Products <i class="fas fa-briefcase"></i></button>
+        </div>
     </div>
+    <app-aboutus></app-aboutus>
+    <ourservices></ourservices>
+    <products></products>
+    <gallery></gallery>
+    <contact></contact>
+    <!-- <div class="carousel-wrapper">
+        <app-carousel [slides]="slides"></app-carousel>
+    </div> -->
+    <button [@ShowButtonScroller]="showButton ? true : false" class="btn flt flt-right flt-primary" *ngIf="showButton"><i class="fas fa-angle-up"></i></button>
 </div>

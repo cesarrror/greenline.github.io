@@ -1,6 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
 .carousel-wrapper {
-    display: block;
-    height: 100vh;
-    width: 100%;
-    /* padding: 2em; */
-  }
+  display: block;
+  height: 100vh;
+  width: 100%;
+  /* padding: 2em; */
+}
+
+.encabezado
+{
+  background-image: url('../../../assets/img/back1.jpeg');
+  background-color: #737373;
+  background-blend-mode: multiply;
+  min-height: 100%;
+  height: 100vh;
+  min-width: 100%;
+  display: block;
+  background-size: cover;
+  background-position: top center;
+  margin-top: 0%;
+}
+
+.welcome-message
+{
+  position: absolute;
+  width: 60%;
+  height: auto;
+  left: 20%;
+  top: 40%;
+}
+
+.welcome-message h1
+{
+  /* color: #3BFC31; */
+  color: #ffffff;
+}
+
+.welcome-message h4,
+.welcome-message p
+{
+  text-align: justify;
+  color: #fff;
+}
+
+.welcome-message .btn-main:last-child
+{
+  margin-left: 10px !important;
+}
